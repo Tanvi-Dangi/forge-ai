@@ -1,40 +1,40 @@
-\# ForgeAI: Multimodal Industrial Intelligence Platform
-
-\*\*Developed for the IIT Jammu AI First Hackathon\*\*
+\# ForgeAI: Multimodal Industrial Operations Hub
 
 
 
-\[!\[Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://forge-ai-2-4z3j.onrender.com)
-
-\[!\[Status](https://img.shields.io/badge/Status-Cloud%20Production-blue)]()
+ForgeAI is a multimodal AI dashboard designed for industrial maintenance, integrating real-time computer vision with semantic document retrieval.
 
 
 
-\## 🚀 Overview
+\## Features
 
-ForgeAI is an end-to-end Multimodal Industrial Intelligence Platform that bridges real-time computer vision and semantic document retrieval. Designed for precision Fadal CNC machinery components, ForgeAI ingests visual component snapshots, performs precise YOLOv8 spatial bounding inspections, and automatically queries local vector indexes via LangChain RAG to deliver instant, actionable maintenance summaries.
+\* \*\*Vision Core:\*\* Utilizes YOLOv8 for real-time identification of industrial components.
 
+\* \*\*Knowledge Core:\*\* A RAG (Retrieval-Augmented Generation) pipeline using LangChain to query technical Fadal hardware manuals.
 
+\* \*\*Smart Interaction:\*\* Automated system context triggers based on visual detection.
 
-\---
-
-
-
-\## 🛠️ Core Tech Stack
-
-\* \*\*Frontend/UI:\*\* Streamlit (Custom Industrial Dark Theme \& Responsive Layouts)
-
-\* \*\*Computer Vision:\*\* YOLOv8 (Ultralytics), OpenCV, PIL
-
-\* \*\*Knowledge Retrieval (RAG):\*\* LangChain, Vector Embeddings
-
-\* \*\*Cloud Infrastructure:\*\* Docker, Render (Cloud Production)
+\* \*\*Manual Override:\*\* A built-in chat interface for specific technical queries.
 
 
 
-\---
+\## Tech Stack
+
+\* \*\*Language:\*\* Python
+
+\* \*\*Frontend:\*\* Streamlit
+
+\* \*\*Vision:\*\* YOLOv8
+
+\* \*\*AI/LLM:\*\* LangChain, ChromaDB
 
 
 
-\## 🏗️ System Architecture
+\## How to Run
+
+1\. Clone the repository: `git clone https://github.com/Tanvi-Dangi/forge-ai.git`
+
+2\. Install requirements: `pip install -r requirements.txt`
+
+3\. Launch the app: `python -m streamlit run app.py`
 
